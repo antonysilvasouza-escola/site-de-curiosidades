@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades do Espaço</title>
+    <style>
+        /* Reset básico e Fontes */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #0b0d17;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(11, 13, 23, 1)), url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=1200') no-repeat center center/cover;
+            padding: 100px 20px;
+            text-align: center;
+            border-bottom: 2px solid #1e293b;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #93c5fd;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 1.1rem;
+            color: #cbd5e1;
+        }
+
+        /* Grid de Curiosidades */
+        .grid-curiosidades {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Cartões de Curiosidade */
+        .card {
+            background-color: #1e293b;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #334155;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(147, 197, 253, 0.1);
+            border-color: #475569;
+        }
+
+        .card-conteudo {
+            padding: 25px;
+        }
+
+        .card h3 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            background-color: #070913;
+            border-top: 1px solid #1e293b;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Além da Atmosfera</h1>
+        <p>Descubra os segredos mais fascinantes do cosmos</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>O universo é infinitamente grande, misterioso e cheio de surpresas. Abaixo, separamos algumas das curiosidades mais surpreendentes sobre o espaço que vão explodir a sua mente.</p>
+        </section>
+
+        <section class="grid-curiosidades">
+            
+            <div class="card">
+                <div class="card-conteudo">
+                    <h3>1. O Silêncio Absoluto</h3>
+                    <p>O espaço é completamente silencioso. Como o som precisa de um meio físico (como o ar ou a água) para se propagar, o vácuo espacial faz com que nenhuma explosão ou colisão produza qualquer ruído audível.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-conteudo">
+                    <h3>2. Pegadas Eternas</h3>
+                    <p>As pegadas deixadas pelos astronautas da missão Apollo na Lua continuarão lá por milhões de anos. Como a Lua não possui atmosfera, não há vento ou chuva para apagar as marcas do solo lunar.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-conteudo">
+                    <h3>3. Um Ano Curto em Vênus</h3>
+                    <p>Um dia em Vênus é mais longo do que um ano inteiro no planeta! Vênus demora cerca de 243 dias terrestres para girar uma única vez em torno do próprio eixo, mas apenas 225 dias para dar uma volta completa ao redor do Sol.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-conteudo">
+                    <h3>4. O Peso do Sol</h3>
+                    <p>O Sol é incrivelmente gigante
